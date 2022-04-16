@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+<!-- =============================================HEAD========================================================================== -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.css">
+  <!-- Configuring CSS doc -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Configuring Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+  <!-- Title icon -->
+  <link rel="icon" href="images/user.png">
+  <!-- My page title -->
+  <title>Pon Sankara Naveen</title>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<!-- =========================================BODY============================================================== -->
+
+<body class="canvasGradientLight">
+
+
+  <!-- =============================Seasons Animation=================================== -->
+  <div class="wrapper">
+    <div class="sun"></div>
+    <div class="cloud">
+      <div class="cloud1">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="cloud1 c_shadow">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cloud_s">
+      <div class="cloud1">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="cloud1 c_shadow">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cloud_vs">
+      <div class="cloud1">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="cloud1 c_shadow">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="haze"></div>
+    <div class="haze_stripe"></div>
+    <div class="haze_stripe"></div>
+    <div class="haze_stripe"></div>
+    <div class="thunder"></div>
+    <div class="rain">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="sleet">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="text">
+      <ul>
+        <li>Mostly Sunny</li>
+        <li>Partly Sunny</li>
+        <li>Partly Cloudy</li>
+        <li>Mostly Cloudy</li>
+        <li>Cloudy</li>
+        <li>Hazy</li>
+        <li>Thunderstorm</li>
+        <li>Rain</li>
+        <li>Sleet</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!--- ===============================Navigation Bar ==============================================-->
+  <section class="top_container mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" id="home">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarpsn" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" size:10px;></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarpsn">
+          <ul class="navbar-nav">
+            <li class="my_nav_links nav-item">
+              <a class="my_nav_links nav-link" href="#Myself">
+                <img src="images/myself_icon.png" alt="myself_icon" width="20" height="20" class="d-inline-block align-text-top">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="my_nav_links nav-link" href="#Educational_Details">
+                <img src="images/education_icon.png" alt="" width="20" height="20" class="d-inline-block align-text-top">
+                Education
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="my_nav_links nav-link" href="#my_skills">
+                <img src="images/skill2_icon.png" alt="" width="20" height="20" class="d-inline-block align-text-top">
+                Skills
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="my_nav_links nav-link" href="#my_Projects">
+                <img src="images/project_icon.png" alt="" width="20" height="20" class="d-inline-block align-text-top">
+                Projects
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ===============================Intro ==============================================================-->
+    <div class="row" id="About_ME">
+      <div class="col-lg-6" align="center">
+        <div class="intro_text" align="left">
+          <h2>Hi! I'm </h2>
+          <br>
+          <h1>Pon Sankara Naveen</h1>
+          <br>
+        </div>
+      </div>
+      <div class="col-lg-6" align="center">
+        <img class="profile_img mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/psn1.png" alt="Profile Pic">
+      </div>
+    </div>
+  </section>
+  <!-- =====================================About Me==============================================================-->
+  <div class="Myself" id="Myself">
+    <div class="row">
+      <div class="col-lg-6" align="center">
+        <img id="Testing_icon" src="images/tester2.png" alt="Testing_icon">
+      </div>
+      <div class="col-lg-6">
+        <div class="About_text">
+          <h1> About Me </h1>
+          <br>
+          <p id="objective">An individual with a keen interest in Software programs, possessing good interpersonal and analytical skills, who wish to use technical knowledge catering to the needs of the company.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ===============================Education Details ==============================================================-->
+  <section>
+    <div class="Education mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" id="Educational_Details">
+      <h1 style="font-size:2.2rem" align="center"> Education </h1>
+
+      <div class="row" id="Academic_Chronicles">
+
+        <div class="col-lg-4 col-md-6" align=center>
+          <!-- <div class="card-deck"> -->
+          <!-- ========MBA Details========== -->
+          <div class="card">
+            <img src="images/IGNOU_logo.png" id="IGNOU_Logo" class="card-img-top Institution-logo-img w-32 h-32 rounded-full mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" alt="IGNOU_Logo">
+            <div class="card-body">
+              <h2 class="card-title" align="center" style="color:#192965">Masters</h2>
+              <p class="card-text data-bs-toggle=" tooltip" data-bs-placement="right" title="Click to know more about IGNOU"">Currently Pursuing MBA through Distance Education at <a href=" http://ignou.ac.in/">Indira Gandhi National Open University
+                (IGNOU).</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==========BE Details========== -->
+        <div class="col-lg-4 col-md-6" align=center>
+          <div class="card">
+            <img style="height: 15%;" src="images/KLNCE.png" id="KLNCE_Logo" class="card-img-top Institution-logo-img w-32 h-32 rounded-full mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" alt="KLNCE_Logo">
+            <div class="card-body">
+              <h2 class="card-title" align="center" style="color:#192965">Bachelors</h2>
+              <p class="card-text data-bs-toggle=" tooltip" data-bs-placement="right" title="Click to know more about KLNCE"">I did my Bachelors in the field of Mechanical Engineering at <a href=" https://www.klnce.edu/"> K.L.N College Of Engineering
+                </a>during the period <b><i>2016 to 2020.</i></b></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="color:#192965" align="left"><strong>CGPA : </strong></li>
+              <li class="list-group-item">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 81%" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">81%</div>
+                </div>
+              </li>
+            </ul>
+            <div class="card-body">
+              <!-- <a class="btn btn-outline-success btn-sm" href="#" role="button"><img src="images/scorecard.png" alt="Score_Card_icon" width="20" height="20"> Score Card</a>
+              <a class="btn btn-outline-dark btn-sm" href="#" role="button" style="color:#F6E5F5"><img src="images/cup.png" alt="Achievement_icon" width="20" height="20"> College level Achivements</a> -->
+
+
+              <a class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#BeScoreModal" role="button"><img src="images/scorecard.png" alt="Score_Card_icon" width="20" height="20"> Score Card</a>
+              <!-- <a class="btn btn-outline-dark btn-sm" href="#" role="button" style="color:#F6E5F5"><img src="images/cup.png" alt="Achievement_icon" width="20" height="20"> College level Achivements</a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- ==========Schooling Details========== -->
+        <div class="col-lg-4 col-md-12" align=center>
+          <div class="card">
+            <img style="height: 15%;" src="images/MepcoSchool.png" id="Mepco_Logo" class="card-img-top Institution-logo-img w-32 h-32 rounded-full mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" alt="MEPCO_Logo">
+            <div class="card-body">
+              <h2 class="card-title" align="center" style="color:#192965">Schooling</h2>
+              <p class="card-text data-bs-toggle=" tooltip" data-bs-placement="right" title="Click to know more about Mepco School"">I did both my HSC and SSLC at <a href="
+                https://www.facebook.com/pages/category/School/Mepco-Schlenk-Matriculation-Higher-Secondary-School-105370349540603/"> Mepco Schlenk Matric Higher Secondary School</a>during the
+                period <b><i>2014 to 2016.</i></b></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="color:#192965" align="left"><strong>HSC Score:</strong></li>
+              <li class="list-group-item">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 86%" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">86%</div>
+                </div>
+              </li>
+            </ul>
+            <li class="list-group-item" style="color:#192965" align="left"><strong>SSLC Score: </strong></li>
+            <li class="list-group-item">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 96%" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100">96%</div>
+              </div>
+            </li>
+            </ul>
+            <div class="card-body">
+              <!-- <a href="#" class="card-link" style="font-size:0.9rem"><img src="images/scorecard.png" alt="Score_Card_icon" width="20" height="20"> Score Card</a>
+            <a href="#" class="card-link" style="font-size:0.8rem"><img src="images/cup.png" alt="Achievement_icon" width="20" height="20"> School level Achivements</a> -->
+
+              <!-- <a class="btn btn-outline-success btn-sm" href="#" role="button"><img src="images/scorecard.png" alt="Score_Card_icon" width="20" height="20"> Score Card</a> -->
+              <!-- <a class="btn btn-outline-dark btn-sm" href="#" role="button" style="color:#F6E5F5"><img src="images/cup.png" alt="Achievement_icon" width="20" height="20"> School level Achivements</a> -->
+
+              <a class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#HSCScoreModal" role="button"><img src="images/scorecard.png" alt="Score_Card_icon" width="20" height="20"> HSC Score Card</a>
+              <a class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#SSLCScoreModal" role="button"><img src="images/scorecard.png" alt="Score_Card_icon" width="20" height="20"> SSLC Score Card</a>
+              <!-- <a class="btn btn-outline-dark btn-sm" href="#" role="button" style="color:#F6E5F5"><img src="images/cup.png" alt="Achievement_icon" width="20" height="20"> School level Achivements</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===========================BE Score Card Popup =============================================== -->
+  <!-- Modal -->
+  <div class="modal fade" id="BeScoreModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">BE ScoreCard: </h3>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr class="ScoreCard_title">
+                <th scope="col">Semester</th>
+                <th scope="col">GPA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>7.81</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>7.48</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">7.92</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td colspan="2">8.28</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td colspan="2">8.25</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td colspan="2">8.00</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td colspan="2">7.957</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td colspan="2">8.8</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Overall CGPA : 8.10
+          <p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close_btn btn btn-default" data-dismiss="modal" id="close_btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- ===========================Scooling Score Card Popup =============================================== -->
+  <!-- Modal -->
+  <!-- =====================HSC SCoreCard============================= -->
+  <div class="modal fade" id="HSCScoreModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">HSC ScoreCard: </h3>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr class="ScoreCard_title">
+                <th scope="col">Subject</th>
+                <th scope="col">Marks(out of 200)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Tamil</th>
+                <td>177</td>
+              </tr>
+              <tr>
+                <th scope="row">English</th>
+                <td>188</td>
+              </tr>
+              <tr>
+                <th scope="row">Physics</th>
+                <td colspan="2">153</td>
+              </tr>
+              <tr>
+                <th scope="row">Chemistry</th>
+                <td colspan="2">151</td>
+              </tr>
+              <tr>
+                <th scope="row">Computer Science</th>
+                <td colspan="2">188</td>
+              </tr>
+              <tr>
+                <th scope="row">Mathematics</th>
+                <td colspan="2">176</td>
+              </tr>
+              <tr id="Total_row">
+                <th scope="row">Total</th>
+                <td colspan="2">1033/1200</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Overall HSC Percentage : 86%
+          <p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close_btn btn btn-default" data-dismiss="modal" id="close_btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================SSLC SCoreCard============================= -->
+  <div class="modal fade" id="SSLCScoreModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">SSLC ScoreCard: </h3>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr class="ScoreCard_title">
+                <th scope="col">Subject</th>
+                <th scope="col">Marks(out of 100)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Tamil</th>
+                <td>85</td>
+              </tr>
+              <tr>
+                <th scope="row">English</th>
+                <td>97</td>
+              </tr>
+              <tr>
+                <th scope="row">Maths</th>
+                <td colspan="2">100</td>
+              </tr>
+              <tr>
+                <th scope="row">Sciece</th>
+                <td colspan="2">100</td>
+              </tr>
+              <tr>
+                <th scope="row">Social Science</th>
+                <td colspan="2">100</td>
+              </tr>
+              <tr id="Total_row">
+                <th scope="row">Total</th>
+                <td colspan="2">482/500</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Overall SSLC Percentage : 96%
+          <p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close_btn btn btn-default" data-dismiss="modal" id="close_btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ===============================Skills ==============================================================-->
+  <section id="my_skills" class="Skills">
+    <h1>Skills</h1>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="skills_tab nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">QEA Technical Skills</button>
+        <button class="skills_tab nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Non IT Technical Skills</button>
+        <button class="skills_tab nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Management Skills</button>
+      </div>
+    </nav>
+    <!-- =========================================QEA Skills===================== -->
+    <div class="tab-content" id="nav-tabContent" style="background-image: linear-gradient(320deg,#F38BA0,#fff)">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div id="skills-carousel" class="carousel slide carousel-dark" data-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="8" aria-label="Slide 9"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- ==========Selenium==================== -->
+            <div class="carousel-item active container-fluid">
+              <img class="selenium_icon skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/Selenium_java.png" class="d-block w-100" alt="Selenium+Java-img">
+              <h1 class="skills_heading"><b>Selenium WebDriver with Java </b></h1>
+              <br>
+              <p class="skills_tagline">Learned and practiced Automated testing with Selenium + Java with personal interest and also successfully completed Selenium SBA and KBA assessments.</p>
+            </div>
+            <!-- ==========UFT==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="UFT_icon skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/UFT.png" class="d-block w-100" alt="UFT+ VBScript-img">
+              <h1 class="skills_heading"><b>Unified Functional Testing with VBScript </b></h1>
+              <br>
+              <p class="skills_tagline">Learned and practiced Automated testing with UFT + VBScript as a part of GenC Training and also successfully completed UFT SBA and KBA assessments.
+                <br>Automated the testing scenarios provided for Mini Project, Main Project as well as for one Hackathon Project with UFT.
+              </p>
+            </div>
+            <!-- ==========Excel VBA==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="VBA_img skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/VBA.png" class="d-block w-100" alt="Excel VBA-img" height="90px">
+              <h1 class="skills_heading"><b>Excel VBA </b></h1>
+              <br>
+              <p class="skills_tagline">Learned and implemented Automated testing with VBA + VBScript based on my current project requirement as <b>Excel VBA</b> is the only tool that I can access in the client environment.
+                So, I created a tool with Excel VBA which will do major data setup on a single click. I also automated the regular process that we do frequently which finally saved some <b>solid amount of time and efforts</b>.
+              </p>
+            </div>
+            <!-- ==========SQL==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="SQL_icon skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/SQL.png" class="d-block w-100" alt="SQL-img">
+              <h1 class="skills_heading"><b>SQL </b></h1>
+              <br>
+              <p class="skills_tagline">Learned and practiced SQL with personal interest and also successfully completed SQL SBA and KBA assessments which helped me to understand and solve <br>my current project issues in short term collaboratig with
+                ADM team.
+              </p>
+            </div>
+            <!-- ==========HTML & CSS==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="html_css_img skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/html_css.png" class="d-block w-100" alt="Html_Css-img" height="90px">
+              <h1 class="skills_heading"><b>HTML and CSS </b></h1>
+              <br>
+              <p class="skills_tagline">Gained knowledge in HTML and CSS with personal interest and implemented those skills to create my own profile page which you are currently looking over.
+              </p>
+            </div>
+            <!-- ==========Javascript==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/javascript_animated.gif" class="d-block w-100" alt="Javascript - Icon">
+              <h1 class="skills_heading"><b>Javascript </b></h1>
+              <br>
+              <p class="skills_tagline">Learned and practiced javascript with personal interest and also successfully completed SQL SBA and KBA assessments which helped me to understand and solve my current project issues in short term collaboratig
+                with ADM team.
+              </p>
+            </div>
+            <!-- ==========VBScript==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="VBScript_img skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/vbscript.png" class="d-block w-100" alt="VBScript - Icon" height="70px">
+              <h1 class="skills_heading"><b>VBScript </b></h1>
+              <br>
+              <p class="skills_tagline">Gained knowledge in VBScript with personal interest and implemented those skills to create tool which reduced our NVA efforts and time in my current project.
+              </p>
+            </div>
+            <!-- ==========C and C++==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="C_Cpp_img skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/c_cpp.png" class="d-block w-100" alt="Javascript - Icon">
+              <h1 class="skills_heading"><b>C / C++ </b></h1>
+              <br>
+              <p class="skills_tagline">C and C++ are my debut programming languages that I learned during my schooling. These two programming language provided me the basic understanding of programming languages.
+              </p>
+            </div>
+            <!-- ==========Python==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="Python_img skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/python.png" class="d-block w-100" alt="Javascript - Icon">
+              <h1 class="skills_heading"><b>Python </b></h1>
+              <br>
+              <p class="skills_tagline">I have started learning Python with my personal interest and I am sure that I will expertise in it and will implement those knowledge in my upcomming project.
+              </p>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#skills-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#skills-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ================================NON IT================================================================= -->
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+        <div id="nonITskills-carousel" class="carousel slide carousel-dark" data-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- ==========NX==================== -->
+            <div class="carousel-item active container-fluid">
+              <img class="NX_img nonITskill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/NX.png" class="d-block w-100" alt="NX-img">
+              <h1 class="skills_heading"><b>NX (Unigraphics)</b></h1>
+              <br>
+              <p class="skills_tagline">Gained knowledge in Siemens-NX Computer Aided Designing software and implemented those skills in my college level projects.Also provided design solutions to my collegemates.</p>
+            </div>
+            <!-- ==========Creo==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="Creo_img nonITskill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/creo.png" class="d-block w-100" alt="Creo-img">
+              <h1 class="skills_heading"><b>Creo</b></h1>
+              <br>
+              <p class="skills_tagline">Gained knowledge in PTC Creo Computer Aided Designing software and implemented those skills in my college level projects.Also provided design solutions to my collegemates.</p>
+            </div>
+            <!-- ==========Ansys==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="Ansys_img nonITskill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/Ansys.png" class="d-block w-100" alt="Ansys-img">
+              <h1 class="skills_heading"><b>Ansys</b></h1>
+              <br>
+              <p class="skills_tagline">Gained knowledge in Ansys - an engineering simulation software for product design, testing and operation. Implemented those skills in my final semester project which includes reducing the material and analysis
+                cost in manufacturing plastic bottles.</p>
+            </div>
+            <!-- ==========AutoCAD==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="AutoCAD_img nonITskill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/AutoCad.png" class="d-block w-100" alt="AutoCAD-img">
+              <h1 class="skills_heading"><b>AutoCAD</b></h1>
+              <br>
+              <p class="skills_tagline">Gained knowledge in AutoCAD - Computer Aided Designing software and implemented those skills in my college level projects for both 2D and 3D drafting.Also provided design solutions to my collegemates.</p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#nonITskills-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#nonITskills-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- ==============================================Management Skills========================================== -->
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+        <div id="Managementskills-carousel" class="carousel slide carousel-dark" data-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- ==========Lean Six Sigma==================== -->
+            <div class="carousel-item active container-fluid">
+              <img class="leanSixSigma_img skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/leansixsigma.png" class="d-block w-100" alt="leansixsigma-img">
+              <h1 class="skills_heading"><b>Lean Six Sigma</b></h1>
+              <br>
+              <p class="skills_tagline">Gained knowledge in lean manufacturing and Six Sigma concepts and got certified. Also implemented the same and improved performance by systematically removing waste and reducing variation.</p>
+            </div>
+            <!-- ==========VSME==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="VSME_img skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/vsme.gif" class="d-block w-100" alt="VSME-img">
+              <h1 class="skills_heading"><b> VSME / VLFM</b></h1>
+              <br>
+              <p class="skills_tagline">Learned and practiced VSME(Visionary Small and Medium Enterprises) - advanced Japanese management system during internstip at TAFE and suggessted a way to eliminate the Non Value Added(NVA) activities, which
+                will increase the Productivity and overall Efficiency. </p>
+            </div>
+            <!-- ==========Leadership Quality==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="Leader_img skill_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/leader.png" class="d-block w-100" alt="Leader-img">
+              <h1 class="skills_heading"><b> Team Leader</b></h1>
+              <br>
+              <p class="skills_tagline">I have been leading the whole school as School People Leader(SPL) for 3yeas organizing large and small scale events including 2 Annual day program, 3 Sports day program and 1 entire Zonal sports event effectively. Lead a throw ball team as caption and brought Zonal and District level victories. Also organized inter-college level symposiums. </p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#Managementskills-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#Managementskills-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ======================================================Project Details==================================================================== -->
+
+
+
+  <section id="my_Projects" class="Projects mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg">
+    <h1>Projects</h1>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="projects_tab nav-link active" id="nav-Projects-tab" data-toggle="tab" data-target="#nav-Projects" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Projects</button>
+        <button class="projects_tab nav-link" id="nav-Internship-tab" data-toggle="tab" data-target="#nav-Internship" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Internship</button>
+        <button class="projects_tab nav-link" id="nav-InplantTraining-tab" data-toggle="tab" data-target="#nav-InplantTraining" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">InPlant Training</button>
+      </div>
+    </nav>
+    <!-- =========================================QEA Skills===================== -->
+    <div class="tab-content" id="nav-tabContent" style="background-image: linear-gradient(270deg,#F38BA0,#fff)">
+      <div class="tab-pane fade show active" id="nav-Projects" role="tabpanel" aria-labelledby="nav-Projects-tab">
+        <div id="Project-carousel" class="carousel slide carousel-dark" data-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- ==========Projects Cloud Migrate==================== -->
+            <div class="carousel-item active container-fluid">
+              <img class="CloudMigratetest_icon mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/cloud_migrate_testing.png" class="d-block w-100" alt="Selenium+Java-img">
+              <h1 class="skills_heading"><b>Cloud Migration Testing </b></h1>
+              <br>
+              <p class="skills_tagline">Did Functional Validation and Integration testing on Azure environment covering each and every screen in the application. Validated the 'Endurance, Lantency, Compliance and FTP' components within designed
+                timeperiod. Also rised and solved issues specific to cload environment like WAF , FTP stability, Timestamp, Special characters security issues in prior notice inorder to maintain constant ontime signoff. Created VBA automated tool to
+                do data setup(Create Patient record) on a single click and also automated the day-to-day frequent activities like logging into VPN, VM , to applcation and screenshot functionalities.</p>
+            </div>
+            <!-- ==========Deep BoreWell Rescue System==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="borewell_rescure_icon mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/borewell_rescure.png" class="d-block w-100" alt="UFT+ VBScript-img">
+              <h1 class="skills_heading"><b>Deep BoreWell Rescue System </b></h1>
+              <br>
+              <p class="skills_tagline">In this project we Designed and Fabricated a device to Save a Child That Is Stuck in a Deep Bore Well. It Is Based on the Inverted Umbrella Mechanism.
+                Also we won 1st prize and cash reward for this project.
+              </p>
+            </div>
+            <!-- ==========Ansys Polyflow==================== -->
+            <div class="carousel-item container-fluid">
+              <img class="Polyflow_gif mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/Polyflow.gif" class="d-block w-100" alt="Excel VBA-img" height="90px">
+              <h1 class="skills_heading"><b>Simulation Of Blow Molding Using ANSYS POLYFLOW</b></h1>
+              <br>
+              <p class="skills_tagline">In this project, we achieved reduction in the Material cost involved in manufacturing the water bottle by Blow molding process with the help of Ansys Poly flow Software</p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#Project-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#Project-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ========================================Internship===================== -->
+      <div class="tab-pane fade" id="nav-Internship" role="tabpanel" aria-labelledby="nav-Internship-tab">
+        <div id="Project-carousel" class="carousel slide carousel-dark" data-ride="false">
+          <div class="carousel-inner">
+            <!-- ==========Tafe==================== -->
+            <div class="carousel-item active container-fluid">
+              <img class="Tafe_gif mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/tafe.gif" class="d-block w-100" alt="Selenium+Java-img">
+              <h1 class="skills_heading"><b>TAFE</b></h1>
+              <br>
+              <p class="skills_tagline">TRACTORS AND FARM EQUIPMENTS (TAFE),MADURAI - Learned and applied Lean, VSME concepts and suggested a solution to increase the Productivity and Efficiency. Also got recognized and received reward for completing
+                the given project within the short span of time with perfection.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========================================InPlant Training===================== -->
+      <div class="tab-pane fade" id="nav-InplantTraining" role="tabpanel" aria-labelledby="nav-InplantTraining-tab">
+        <div id="Project-carousel" class="carousel slide carousel-dark" data-ride="false">
+          <div class="carousel-inner">
+            <!-- ==========Tafe==================== -->
+            <div class="carousel-item active container-fluid">
+              <img class="tvs_logo mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg" src="images/tvs.png" class="d-block w-100" alt="Selenium+Java-img">
+              <h1 class="skills_heading"><b>TVS</b></h1>
+              <br>
+              <p class="skills_tagline">TVS Sundharam Automobile Service Center is the place where my first on foot industrial experience started. I observed and learned the realtime functioning of an organization, Organization structure and Customer
+                relationship management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================Contact Details==================================================== -->
+  <hr>
+  <div class="row">
+    <div class="col-lg-6" align="center">
+      <img id="person_icon" src="images/person_icon.png" alt="person_icon">
+    </div>
+    <div class="col-lg-6">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <p class="contact-message">Feel free to reach me by clicking on below button.</p>
+        <a id="send_mail" class="btn btn-outline-dark data-bs-toggle=" tooltip" data-bs-placement="right" title="Click to reach me via gmail"" href=" mailto:ponsankaranaveen@gmail.com"><span class="spinner-grow spinner-grow-sm" role="status"
+            aria-hidden="true" style="background-color:#F3D3D3"></span> CONTACT ME <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true" style="background-color:#F3D3D3"></span></a>
+        <!-- ========================Download Resume==================================================== -->
+        <a id="send_mail" class="btn btn-outline-dark data-bs-toggle=" tooltip" data-bs-placement="right" title="Click to view and download Resume"" href=" .\PSNResume.pdf" target="_blank"><span class="spinner-grow spinner-grow-sm" role="status"
+            aria-hidden="true" style="background-color:#F3D3D3"></span> Download Resume <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true" style="background-color:#F3D3D3"></span></a>
+      </div>
+    </div>
+  </div>
+  <!-- ========================Contact links==================================================== -->
+  <div class="bottom-container" align=center>
+    <a class="footer-link data-bs-toggle=" tooltip" data-bs-placement="right" title="Click to view my LinkedIn profile"" href=" https://in.linkedin.com/in/pon-sankara-naveen-r-k-17a478191" target="_blank"><img src="images/linkedin1.gif" class="social_img"
+        alt="Score_Card_icon"></a>
+    <!-- <a class="footer-link data-bs-toggle="tooltip" data-bs-placement="right" title="Click to know my phone number"" href="mobile.html"><img src="images/phone.gif" class="social_img" alt="Score_Card_icon"></a> -->
+    <!-- <a class="footer-link data-bs-toggle="tooltip" data-bs-placement="right" title="Click to know my gmail id"" href="Gmail.html"><img src="images/gmail.gif" class="social_img" alt="Score_Card_icon"></a> -->
+
+
+    <!-- ===========================Mobile number  popup======================================= -->
+    <!-- Trigger the modal with a button -->
+    <a class="footer-link" data-toggle="modal" data-target="#mobilenumModal"><img src="images/phone.gif" class="social_img data-bs-toggle=" tooltip" data-bs-placement="right" title="Click to get my Mobile number"" alt=" Score_Card_icon"></a>
+    <!-- Modal -->
+    <div class="modal fade" id="mobilenumModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Mobile / Whatsapp: </h3>
+          </div>
+          <div class="modal-body">
+            <p>(+91) 9894104228</p>
+            <p>(+91) 8667292338</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="close_btn btn btn-default" data-dismiss="modal" id="close_btn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===========================Gmail popup======================================= -->
+    <a class="footer-link" data-toggle="modal" data-target="#gmailModal"><img src="images/gmail.gif" class="social_img data-bs-toggle=" tooltip" data-bs-placement="right" title="Click to get my Gmail Id"" alt=" Score_Card_icon"></a>
+    <!-- Modal -->
+    <div class="modal fade" id="gmailModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">Gmail Id : </h3>
+          </div>
+          <div class="modal-body">
+            <p>ponsankaranaveen@gmail.com</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="close_btn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ========================Copy Right============================ -->
+    <br>
+    <br>
+    <span class="copyright data-bs-toggle=" tooltip" data-bs-placement="right" title="Updated on April 2022"">© 2021 Pon Sankara Naveen R K</span>
+  </div>
+
+
+<!-- ================================================Navigate to Top of the Page==================================== -->
+
+<section id=" go_to_home">
+      <div id="home_container">
+        <a href="#home"><img class="home_icons mx-auto dark:bg-gray-300 dark:p-1 shadow-xl dark:shadow-lg data-bs-toggle=" tooltip" data-bs-placement="right" title="Navigate back to top of the page"" src=" images/home2.gif" class="d-block w-100"
+            alt="home - Icon"></a>
+      </div>
+</section>
+
+
+</body>
+
+</html>
