@@ -200,6 +200,7 @@ margin-top: 70px;
 /* Hiding the border of score bar */
 .card > .list-group{
   border: hidden;
+  border-radius: 1px;
 }
 .list-group-item{
   border: hidden;
